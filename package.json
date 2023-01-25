@@ -1,0 +1,15 @@
+{
+  "name": "deck",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "reveal-md markdown -w",
+    "static": "reveal-md markdown --static static"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "5.4.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": false,
+    "editor.renderControlCharacters": true,
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "debug.allowBreakpointsEverywhere": true,
+    "search.exclude": {
+        "**/.cache/**/*": true
+    }
+}
