@@ -18,4 +18,6 @@ pnpm start
 
 ### production
 
-see GitHub Actions
+```
+pnpm build
+```

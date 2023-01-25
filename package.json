@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "reveal-md markdown -w",
-    "static": "reveal-md markdown --static static"
+    "build": "reveal-md markdown --static docs"
   },
   "keywords": [],
   "author": "",
