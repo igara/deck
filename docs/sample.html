@@ -4,18 +4,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal-md</title>
+    <title>サンプル</title>
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
     <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
 
+    <link rel="stylesheet" href="./_assets/node_modules/reveal.js-plugins/customcontrols/style.css" />
+    <link rel="stylesheet" href="./_assets/node_modules/reveal.js-plugins/chalkboard/style.css" />
 
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"># Hello World!
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# はじめての reveal.js
+</script></section><section  data-markdown><script type="text/template">
+## リスト
+
+* りんご
+* みかん
+* もも
+</script></section><section  data-markdown><script type="text/template">
+## 効果
+
+Fade in
+<!-- .element: class="fragment" -->
+
+Fade out
+<!-- .element: class="fragment fade-out" -->
+
+Highlight red
+<!-- .element: class="fragment highlight-red" -->
+
+Fade in, then out
+<!-- .element: class="fragment fade-in-then-out" -->
+
+Slide up while fading in
+<!-- .element: class="fragment fade-up" -->
 </script></section></div>
     </div>
 
@@ -63,6 +90,11 @@
       var options = extend(defaultOptions, {}, queryOptions);
     </script>
 
+    <script src="./_assets/node_modules/reveal.js-plugins/customcontrols/plugin.js"></script>
+    <script src="./_assets/node_modules/reveal.js-plugins/chalkboard/plugin.js"></script>
+    <script src="./_assets/node_modules/reveal.js-plugins/menu/menu.js"></script>
+    <script src="./_assets/node_modules/reveal.js-plugins/fullscreen/plugin.js"></script>
+    <script src="./_assets/plugin.js"></script>
 
     <script>
       Reveal.initialize(options);
