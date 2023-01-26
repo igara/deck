@@ -7,6 +7,7 @@ options.plugins.push(
 );
 
 Reveal.initialize({	
+	slideNumber: 'c/t',
 	chalkboard: { // font-awesome.min.css must be available
 		//src: "chalkboard/chalkboard.json",
 		storage: "chalkboard-demo",
