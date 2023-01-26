@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "reveal-md markdown -w --css node_modules/reveal.js-plugins/customcontrols/style.css,node_modules/reveal.js-plugins/chalkboard/style.css",
-    "build": "reveal-md markdown --static docs --css node_modules/reveal.js-plugins/customcontrols/style.css,node_modules/reveal.js-plugins/chalkboard/style.css "
+    "start": "reveal-md markdown -w --css plugins/customcontrols/style.css,plugins/chalkboard/style.css,plugins/menu/menu.css",
+    "build": "reveal-md markdown --static docs --css plugins/customcontrols/style.css,plugins/chalkboard/style.css,,plugins/menu/menu.css"
   },
   "keywords": [],
   "author": "",
