@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="./../../dist/theme/serif.css" id="theme" />
     <link rel="stylesheet" href="./../../css/highlight/base16/zenburn.css" />
 
-    <link rel="stylesheet" href="./../../assets/plugins/customcontrols/style.css" />
-    <link rel="stylesheet" href="./../../assets/plugins/chalkboard/style.css" />
-    <link rel="stylesheet" href="./../../assets/" />
-    <link rel="stylesheet" href="./../../assets/plugins/menu/menu.css" />
+    <link rel="stylesheet" href="./../../assets/node_modules/reveal.js-plugins/customcontrols/style.css" />
+    <link rel="stylesheet" href="./../../assets/node_modules/reveal.js-plugins/chalkboard/style.css" />
+    <link rel="stylesheet" href="./../../assets/node_modules/reveal.js-plugins/menu/menu.css" />
 
   </head>
   <body>
@@ -250,47 +249,47 @@ IDEがないとコーディングできる自信がありません
 </script></section><section  data-markdown><script type="text/template">
 CSVの拡張を入れてないときのCSVファイルの見にくい件や
 
-<img src="./no_plugin_csv.png">
+<img src="./assets/no_plugin_csv.png">
 
 このCSVを表確認するためだけにExcelなどを<br>開くのも躊躇うときがある
 </script></section><section  data-markdown><script type="text/template">
 元のファイルとは異なる構文のものがある例としてJavaScriptの文字列としてHTMLがある場合
 
-<img src="./no_plugin_js_html.png">
+<img src="./assets/no_plugin_js_html.png">
 </script></section><section  data-markdown><script type="text/template">
 ### シンタックスハイライト<br>・<br>構文強調 とは
 </script></section><section  data-markdown><script type="text/template">
 <a href="https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv" style="text-decoration: underline;">Rainbow CSV</a>を入れれば<br>色がつき識別がしやすくなる
 
-<img src="./plugin_csv.png">
+<img src="./assets/plugin_csv.png">
 </script></section><section  data-markdown><script type="text/template">
 before
 
-<img src="./no_plugin_csv.png">
+<img src="./assets/no_plugin_csv.png">
 </script></section><section  data-markdown><script type="text/template">
 <a href="https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html" style="text-decoration: underline;">es6-string-html</a>を入れることでHTMLの<br>閉じの識別がしやすくなる
 
-<img src="./plugin_js_html.png">
+<img src="./assets/plugin_js_html.png">
 </script></section><section  data-markdown><script type="text/template">
 before
 
-<img src="./no_plugin_js_html.png">
+<img src="./assets/no_plugin_js_html.png">
 </script></section><section  data-markdown><script type="text/template">
 ### コードジャンプ とは
 </script></section><section  data-markdown><script type="text/template">
 OSによって[Command か Ctrl] + マウス右クリックで変数の宣言元を表示できる機能
 
-<video controls src="./code_jump.webm">
+<video controls src="./assets/code_jump.webm">
 </script></section><section  data-markdown><script type="text/template">
 ### インテリセンス・入力補完 とは
 </script></section><section  data-markdown><script type="text/template">
 弊社の事例になるが<a href="https://phpstan.org" style="text-decoration: underline;">PHPStan</a>導入し、<br>PHPDocとassert構文を組み合わせて<br>入力補完を強めたりしている
 
-<img src="./php_intelisence.png">
+<img src="./assets/php_intelisence.png">
 </script></section><section  data-markdown><script type="text/template">
 before
 
-<img src="./php_no_intelisence.png">
+<img src="./assets/php_no_intelisence.png">
 </script></section><section  data-markdown><script type="text/template">
 ### スタックトレースもあるような<br>ブレークポイントの<br>デバッグ機能 とは
 </script></section><section  data-markdown><script type="text/template">
@@ -298,7 +297,7 @@ before
 
 調べればやり方はいっぱい出てくるので<br>Gifを見せて説明省略
 
-<img src="./demo.gif">
+<img src="./assets/demo.gif">
 </script></section><section  data-markdown><script type="text/template">
 ### 共通で使用する<br>VSCodeの設定共有 とは
 </script></section><section  data-markdown><script type="text/template">
@@ -395,41 +394,41 @@ ESLint
 
 色以外にも間隔(margin, padding)や透過(opacity)の指定にも同様なルール追加
 
-<img src="./custom_color_stylelint.png">
+<img src="./assets/custom_color_stylelint.png">
 </script></section><section  data-markdown><script type="text/template">
 定義にない値を読み込もうとしたときも警告される
 
-<img src="./custom_spading_stylelint.png">
+<img src="./assets/custom_spading_stylelint.png">
 </script></section><section  data-markdown><script type="text/template">
 #### ESLint編
 </script></section><section  data-markdown><script type="text/template">
 CSS in JS上でも独自のStylelintルールを適応している
 
-<img src="./custom_eslint.png">
+<img src="./assets/custom_eslint.png">
 </script></section><section  data-markdown><script type="text/template">
 #### textlint編
 </script></section><section  data-markdown><script type="text/template">
 表記揺れのような文言チェックツールを入れて<br>違反していたら警告されるようにした
 
-<img src="./custom_textlint.png">
+<img src="./assets/custom_textlint.png">
 </script></section><section  data-markdown><script type="text/template">
 #### 独自で考えたLintルール追加した際のブログ
 </script></section><section  data-markdown><script type="text/template">
 Stylelint
 
-<a href="https://zenn.dev/igara/articles/custom_stylelint"><img src="./zenn_stylelint.png"></a>
+<img src="./assets/zenn_stylelint.png">
 
 <a href="https://zenn.dev/igara/articles/custom_stylelint" style="text-decoration: underline;">独自のStylelint拡張をかいた<br>補足 共通のカラーコード参照</a>
 </script></section><section  data-markdown><script type="text/template">
 ESLint
 
-<a href="https://zenn.dev/igara/articles/add_custom_stylelint_eslint"><img src="./zenn_eslint.png"></a>
+<img src="./assets/zenn_eslint.png">
 
 <a href="https://zenn.dev/igara/articles/add_custom_stylelint_eslint" style="text-decoration: underline;">ESLintのルール新規追加、<br>Stylelintのルール追加しました 補足</a>
 </script></section><section  data-markdown><script type="text/template">
 textlint
 
-<a href="https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug"><img src="./zenn_textlint.png"></a>
+<img src="./assets/zenn_textlint.png">
 
 <a href="https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug" style="text-decoration: underline;">Spreadsheet管理のライティングルールを<br>textlintで浸透させる VSCodeにも適応する</a>
 </script></section><section  data-markdown><script type="text/template">
@@ -487,10 +486,10 @@ textlint
       var options = extend(defaultOptions, {}, queryOptions);
     </script>
 
-    <script src="./../../assets/plugins/customcontrols/plugin.js"></script>
-    <script src="./../../assets/plugins/chalkboard/plugin.js"></script>
-    <script src="./../../assets/plugins/menu/menu.js"></script>
-    <script src="./../../assets/plugins/fullscreen/plugin.js"></script>
+    <script src="./../../assets/node_modules/reveal.js-plugins/customcontrols/plugin.js"></script>
+    <script src="./../../assets/node_modules/reveal.js-plugins/chalkboard/plugin.js"></script>
+    <script src="./../../assets/node_modules/reveal.js-plugins/menu/menu.js"></script>
+    <script src="./../../assets/node_modules/reveal.js-plugins/fullscreen/plugin.js"></script>
     <script src="./../../assets/plugin.js"></script>
 
     <script>

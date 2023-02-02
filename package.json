@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "reveal-md markdown -w --css plugins/customcontrols/style.css,plugins/chalkboard/style.css,plugins/menu/menu.css",
-    "build": "reveal-md markdown --static docs --css plugins/customcontrols/style.css,plugins/chalkboard/style.css,,plugins/menu/menu.css --assets-dir assets"
+    "start": "reveal-md markdown -w --css node_modules/reveal.js-plugins/customcontrols/style.css,node_modules/reveal.js-plugins/chalkboard/style.css,node_modules/reveal.js-plugins/menu/menu.css",
+    "build": "reveal-md markdown --static docs --css node_modules/reveal.js-plugins/customcontrols/style.css,node_modules/reveal.js-plugins/chalkboard/style.css,node_modules/reveal.js-plugins/menu/menu.css --assets-dir assets && node cp.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "11.1.0",
     "reveal-md": "5.4.0",
     "reveal.js-plugins": "4.1.5"
   }

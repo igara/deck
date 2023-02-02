@@ -1,9 +1,9 @@
 {
     "scripts": [
-        "plugins/customcontrols/plugin.js",
-        "plugins/chalkboard/plugin.js",
-        "plugins/menu/menu.js",
-        "plugins/fullscreen/plugin.js",
+        "node_modules/reveal.js-plugins/customcontrols/plugin.js",
+        "node_modules/reveal.js-plugins/chalkboard/plugin.js",
+        "node_modules/reveal.js-plugins/menu/menu.js",
+        "node_modules/reveal.js-plugins/fullscreen/plugin.js",
         "plugin.js"
     ]
 }
